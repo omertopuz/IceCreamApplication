@@ -1,0 +1,9 @@
+package com.icecream.requests;
+
+public enum EnumOrderStates {
+	ONGOING_PROCESS,
+	REJECTEDBYSTOCKLEAK,
+	REJECTEDBYINSUFFICIENTBALANCE,
+	APPROVED,
+	READY;
+}
